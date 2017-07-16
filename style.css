@@ -1,0 +1,43 @@
+h1 {
+
+}
+article {
+
+}
+.left-section {
+  display: flex;
+  width: 66.6%;
+}
+.squares {
+  flex: 1;
+}
+.double-wide {
+  flex: 2;
+  background: magenta;
+}
+.right-section {
+  /*background-image: url('');*/
+  background:yellow;
+  width: 33.3%;
+}
+#bone {
+  background: aqua;
+}
+#pics {
+  background: purple;
+}
+#toys {
+  background: blue;
+}
+#treats {
+  background: red;
+}
+#blog {
+  background: pink;
+}
+#humans {
+  background: green;
+}
+#friends {
+  background: orange;
+}
