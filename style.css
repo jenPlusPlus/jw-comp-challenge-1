@@ -24,7 +24,7 @@ article {
 }
 .double-wide {
   width: 66.6%;
-  background: magenta;
+  background: #616161;
 }
 .right-section {
   background-image: url('images/cameron_vertical.jpg');
@@ -34,25 +34,25 @@ article {
   height: 100%;
 }
 #bone {
-  background: aqua;
+  background: #BDBDBD;
 }
 #pics {
-  background: purple;
+  background: #9E9E9E;
 }
 #toys {
-  background: blue;
+  background: #607D8B;
 }
 #treats {
-  background: red;
+  background: #616161;
 }
 #blog {
-  background: pink;
+  background: #F5F5F5;
 }
 #humans {
-  background: green;
+  background: #9E9E9E;
 }
 #friends {
-  background: orange;
+  background: #F5F5F5;
 }
 
 @media (max-width: 600px) {
