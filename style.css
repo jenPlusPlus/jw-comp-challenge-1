@@ -27,8 +27,9 @@ article {
   background: magenta;
 }
 .right-section {
-  /*background-image: url('');*/
-  background:yellow;
+  background-image: url('images/cameron_vertical.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 33.3%;
   height: 100%;
 }
