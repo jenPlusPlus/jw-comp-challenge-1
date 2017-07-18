@@ -2,60 +2,71 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cameron the Dog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   </head>
   <body>
     <section class="left-section">
-      <article class="">
-        <h1>Hi, I'm Cameron.</h1>
-        <p class="">I'm a good boy, and I like walks at the park and eating sticks.</p>
-        <p class="">Check out my links to read more about my life as a dog!</p>
-        <button>Profile</button>
-        <button>Contact</p>
+      <article class="double-wide">
+        <h1>Hi, I'm Cameron!</h1>
+        <div class="intro-text">
+          <p class="intro">I'm a good boy.</p>
+          <p class="intro">I like walks at the park and eating sticks.</p>
+        </div>
+        <div class="initial-block"><img class="tiny-images" src="images/paw.png" /><p class="initial-block-text">Profile</p></div>
+        <div class="initial-block"><img class="tiny-images" src="images/contact.ico" /><p class="initial-block-text">Contact</p></div>
       </article>
-      <article class="">
+      <article class="squares" id="bone">
+        <img class="icons" src="images/dog_bone.png" alt="" class="" />
         <p>Give a dog a bone</p>
-        <img src="" alt="" class="" />
       </article>
-      <article class="">
+      <article class="squares" id="pics">
+        <img class="icons" src="images/camera.png" alt="" class="" />
         <p>Pictures</p>
-        <img src="" alt="" class="" />
       </article>
-      <article class="">
-        <p>Favorite Toys</p>
-        <img src="" alt="" class="" />
+      <article class="squares" id="toys">
+        <img class="icons" src="images/dog_toy.png" alt="" class="" />
+        <p>Toys</p>
       </article>
-      <article class="">
-        <p>Favorite Treats</p>
-        <img src="" alt="" class="" />
-      </article>
-      <article class="">
+      <article class="squares" id="blog">
+        <img class="icons" src="images/blog.png" alt="" class="" />
         <p>Blog</p>
-        <img src="" alt="" class="" />
       </article>
-      <article class="">
+      <article class="squares" id="treats">
+        <img class="icons" src="images/treats.png" alt="" class="" />
+        <p>Treats</p>
+      </article>
+      <article class="squares" id="humans">
+        <img class="icons" src="images/humans.png" alt="" class="" />
         <p>Humans</p>
-        <img src="" alt="" class="" />
       </article>
-      <article class="">
+      <article class="squares" id="friends">
+        <img class="icons" src="images/friends.png" alt="" class="" />
         <p>Friends</p>
-        <img src="" alt="" class="" />
       </article>
     </section>
-    <section class = "right-section">
+    <section class ="right-section">
+      <!-- <img id="cameron" src="images/cameron_vertical.jpg" alt="" /> -->
       <div class="carousel-progress-buttons-container">
-        <button class="carousel-progress-buttons" id="progress-button-one">
-        </button>
-        <button class="carousel-progress-buttons" id="progress-button-two">
-        </button>
-        <button class="carousel-progress-buttons" id="progress-button-three">
-        </button>
+        <ul>
+        <li>
+        <div class="carousel-progress-buttons" id="progress-button-one"></div>
+      </li>
+        <li>
+        <div class="carousel-progress-buttons" id="progress-button-two"></div>
+      </li>
+        <li>
+        <div class="carousel-progress-buttons" id="progress-button-three"></div>
+        </li>
+      </ul>
       </div>
       <div class="carousel-left-right-button-container">
-        <button class="carousel-left-right-buttons" id="carousel-left-button">
-        </button>
-        <button class="carousel-left-right-buttons" id="carousel-right-button">
-        </button>
+        <div class="carousel-left-right-buttons" id="carousel-left-button">
+        </div>
+        <div class="carousel-left-right-buttons" id="carousel-right-button">
+        </div>
       </div>
     </section>
   </body>
