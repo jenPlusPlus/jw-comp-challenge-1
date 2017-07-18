@@ -6,4 +6,3 @@ The subject of my static comp is Cameron, the dog I'm adopting this week. I used
 My biggest struggle was responsiveness. First, I couldn't decide on breakpoints. Then, I couldn't decide how I wanted it to look at different sizes. I really like my mobile layout, but I wasn't sure how to improve the look of my mid-sized screens.
 
 Original comp:
-!(http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
